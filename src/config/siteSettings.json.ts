@@ -17,9 +17,7 @@ export const localeMap = {
 
 // text to show in the language switcher for each locale
 export const languageSwitcherMap = {
-  es: "ES",
-	// en: "EN",
-	// 
+  es: "Español",
 	en: "English",
 	
 } as const;
