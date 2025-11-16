@@ -11,17 +11,18 @@ const currLocale = getLocaleFromUrl(Astro.url);
 ---
 
 <BaseLayout
-	title="Amplify Overview"
+	title="Gabriel Fuentes"
 	description="See all the pages and sections included with the Amplify theme"
 >
 	<section class="site-container py-36">
 		<div class="mr-auto max-w-4xl">
-			<Badge>Overview</Badge>
-			<h1 class="h1 -mt-3">The elements of Amplify</h1>
+			<Badge>ML and AI ENGINEERING</Badge>
+			<h1 class="h1 -mt-3">Bridging the gap between models and production</h1>
 			<div class="xs:grid-cols-2 mx-auto mt-10 grid gap-4 md:grid-cols-3">
+
 				<!-- Landing pages -->
 				<div class="flex flex-col">
-					<h3 class="overview-heading">Landing Pages</h3>
+					<h3 class="overview-heading">Data science</h3>
 					<a class="overview-link" href={getLocalizedRoute(currLocale, "/")}>Landing 1</a>
 					<a class="overview-link" href={getLocalizedRoute(currLocale, "/examples/landing2")}
 						>Landing 2</a
@@ -33,7 +34,7 @@ const currLocale = getLocaleFromUrl(Astro.url);
 
 				<!-- Blog pages -->
 				<div class="flex flex-col">
-					<h3 class="overview-heading">Blog</h3>
+					<h3 class="overview-heading">MLOps</h3>
 					<a
 						class="overview-link"
 						href={getLocalizedRoute(currLocale, "/blog/tsconfig-paths-setup")}>Blog Post 1</a
@@ -51,7 +52,7 @@ const currLocale = getLocaleFromUrl(Astro.url);
 
 				<!-- Sections -->
 				<div class="flex flex-col">
-					<h3 class="overview-heading">Sections</h3>
+					<h3 class="overview-heading">GenAI</h3>
 					<a class="overview-link" href={getLocalizedRoute(currLocale, "/examples/features")}
 						>Feature Sections</a
 					>
