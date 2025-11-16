@@ -7,18 +7,25 @@
  * * Data file configuration for the i18n system
  * Every {Data} key must exist in the below object
  */
+import testimonialDataEs from "./es/testimonialData.json";
+import teamDataEs from "./es/teamData.json";
+import siteDataEs from "./es/siteData.json";
+import navDataEs from "./es/navData.json";
+import faqDataEs from "./es/faqData.json";
 import faqDataEn from "./en/faqData.json";
 import navDataEn from "./en/navData.json";
 import siteDataEn from "./en/siteData.json";
 import teamDataEn from "./en/teamData.json";
 import testimonialDataEn from "./en/testimonialData.json";
-import faqDataFr from "./fr/faqData.json";
-import navDataFr from "./fr/navData.json";
-import siteDataFr from "./fr/siteData.json";
-import teamDataFr from "./fr/teamData.json";
-import testimonialDataFr from "./fr/testimonialData.json";
 
 export const dataTranslations = {
+  es: {
+    faqData: faqDataEs,
+    navData: navDataEs,
+    siteData: siteDataEs,
+    teamData: teamDataEs,
+    testimonialData: testimonialDataEs,
+  },
 	en: {
 		siteData: siteDataEn,
 		navData: navDataEn,
@@ -26,13 +33,7 @@ export const dataTranslations = {
 		teamData: teamDataEn,
 		testimonialData: testimonialDataEn,
 	},
-	fr: {
-		siteData: siteDataFr,
-		navData: navDataFr,
-		faqData: faqDataFr,
-		teamData: teamDataFr,
-		testimonialData: testimonialDataFr,
-	},
+	
 } as const;
 
 /**
@@ -55,6 +56,13 @@ export const dataTranslations = {
  * ```
  */
 export const textTranslations = {
+  es: {
+		hero_text: "Amplify your next website",
+		hero_description:
+			"An electric template for the next killer SaaS. Multiple pages and sections, blog, i18n, animations, CMS - all ready to go.",
+		back_to_all_posts: "Back to all posts",
+		updated: "Updated",
+	},
 	en: {
 		hero_text: "Amplify your next website",
 		hero_description:
@@ -62,13 +70,7 @@ export const textTranslations = {
 		back_to_all_posts: "Back to all posts",
 		updated: "Updated",
 	},
-	fr: {
-		hero_text: "Amplifiez votre site Web en français",
-		hero_description:
-			"Je ne parle pas vraiment français donc j'utilise Google Translate pour quelques parties de cette démo.",
-		back_to_all_posts: "Retour à tous les articles",
-		updated: "Mis à jour",
-	},
+	
 } as const;
 
 /**
@@ -83,6 +85,13 @@ export const textTranslations = {
  * Note: This works in conjunction with the localizedCollections object below
  */
 export const routeTranslations = {
+  es: {
+		aboutKey: "about",
+		categoryKey: "categories",
+		categoryKey2: "categories/*",
+		categoryKey3: "categories",
+		blogKey: "blog",
+	},
 	en: {
 		aboutKey: "about",
 		categoryKey: "categories",
@@ -90,13 +99,7 @@ export const routeTranslations = {
 		categoryKey3: "categories",
 		blogKey: "blog",
 	},
-	fr: {
-		aboutKey: "a-propos",
-		categoryKey: "categories",
-		categoryKey2: "categories",
-		categoryKey3: "categories/*",
-		blogKey: "blog",
-	},
+	
 } as const;
 
 /**
@@ -112,7 +115,7 @@ export const routeTranslations = {
 export const localizedCollections = {
 	blog: {
 		en: "blog",
-		fr: "blog",
+		es: "blog"
 	},
 	// Add more collections/locales as needed
 } as const;

@@ -106,7 +106,7 @@ const navConfig: navItem[] = [
 				items: [
 					{
 						text: "About",
-						link: "/a-propos",
+						link: "/about",
 						icon: "tabler/user",
 					},
 					{
