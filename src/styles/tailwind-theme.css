@@ -6,17 +6,17 @@
 @theme {
 	/* cosmic themes theme config */
 	/* primary colors. Can generate with https://uicolors.app/create, then convert to oklch with https://oklch.com/ */
-	--color-primary-50: var(--color-blue-50);
-	--color-primary-100: var(--color-blue-100);
-	--color-primary-200: var(--color-blue-200);
-	--color-primary-300: var(--color-blue-300);
-	--color-primary-400: var(--color-blue-400);
-	--color-primary-500: var(--color-blue-500);
-	--color-primary-600: var(--color-blue-600);
-	--color-primary-700: var(--color-blue-700);
-	--color-primary-800: var(--color-blue-800);
-	--color-primary-900: var(--color-blue-900);
-	--color-primary-950: var(--color-blue-950);
+	--color-primary-50: oklch(0.9691 0.0151 17.42);
+	--color-primary-100: oklch(0.93 0.0355 17.81);
+	--color-primary-200: oklch(0.8748 0.0666 19.65);
+	--color-primary-300: oklch(0.7938 0.1188 20.69);
+	--color-primary-400: oklch(0.6999 0.1909 24.11);
+	--color-primary-500: oklch(0.6479 0.2379 27.42);
+	--color-primary-600: oklch(0.6062 0.2423 28.83);
+	--color-primary-700: oklch(0.5456 0.2194 28.96);
+	--color-primary-800: oklch(0.4646 0.1833 28.69);
+	--color-primary-900: oklch(0.408 0.153 27.71);
+	--color-primary-950: oklch(0.2659 0.103 28.7);
 
 	/* base colors */
 	--color-base-50: var(--color-neutral-50);

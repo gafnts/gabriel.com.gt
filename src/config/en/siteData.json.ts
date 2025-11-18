@@ -2,7 +2,7 @@ import { type SiteDataProps } from "../types/configDataTypes";
 
 // Update this file with your site specific information
 const siteData: SiteDataProps = {
-	name: "Amplify",
+	name: "Gabriel Fuentes",
 	// Your website's title and description (meta fields)
 	title: "Amplify - an electric SaaS theme crafted with Astro and Tailwind CSS",
 	description:
