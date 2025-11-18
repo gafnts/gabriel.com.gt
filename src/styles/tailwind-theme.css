@@ -6,17 +6,17 @@
 @theme {
 	/* cosmic themes theme config */
 	/* primary colors. Can generate with https://uicolors.app/create, then convert to oklch with https://oklch.com/ */
-	--color-primary-50: ooklch(0.979 0.0232 122.71);
-	--color-primary-100: oklch(0.9521 0.0477 122.71);
-	--color-primary-200: oklch(0.9087 0.0902 125);
-	--color-primary-300: oklch(0.8495 0.137 126.7);
-	--color-primary-400: oklch(0.7864 0.1657 128.57);
-	--color-primary-500: oklch(0.7487 0.1804 130.22);
-	--color-primary-600: oklch(0.5909 0.1448 130.94);
-	--color-primary-700: oklch(0.4903 0.1145 130.83);
-	--color-primary-800: oklch(0.4213 0.0904 130.56);
-	--color-primary-900: oklch(0.3792 0.0744 130.86);
-	--color-primary-950: oklch(0.2552 0.0529 132.01);
+	--color-primary-50: oklch(0.9691 0.0151 17.42);
+	--color-primary-100: oklch(0.93 0.0355 17.81);
+	--color-primary-200: oklch(0.8748 0.0666 19.65);
+	--color-primary-300: oklch(0.7938 0.1188 20.69);
+	--color-primary-400: oklch(0.6999 0.1909 24.11);
+	--color-primary-500: oklch(0.6479 0.2379 27.42);
+	--color-primary-600: oklch(0.6062 0.2423 28.83);
+	--color-primary-700: oklch(0.5456 0.2194 28.96);
+	--color-primary-800: oklch(0.4646 0.1833 28.69);
+	--color-primary-900: oklch(0.408 0.153 27.71);
+	--color-primary-950: oklch(0.2659 0.103 28.7);
 
 	/* base colors */
 	--color-base-50: var(--color-neutral-50);
