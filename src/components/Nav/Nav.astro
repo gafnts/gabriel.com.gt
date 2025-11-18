@@ -33,10 +33,14 @@ import { locales } from "@config/siteSettings.json";
 					<SiteLogo />
 				</div>
 
-				<!-- center desktop menu -->
+				<!-- center desktop menu - empty for now -->
 				<div class="flex flex-auto justify-center">
+				</div>
+
+				<!-- extra items. If changing CTA buttons make sure to update MobileNav.astro as well! -->
+				<div class="flex items-center justify-end gap-3">
 					<nav class="hidden items-center md:flex">
-						<ul class="flex h-fit items-center px-4">
+						<ul class="flex h-fit items-center">
 							{
 								// if dropdown exists, setup the dropdown, otherwise it is just a link
 								navData.map((navItem) =>
@@ -59,16 +63,12 @@ import { locales } from "@config/siteSettings.json";
 							</li>
 						</ul>
 					</nav>
-				</div>
-
-				<!-- extra items. If changing CTA buttons make sure to update MobileNav.astro as well! -->
-				<div class="flex justify-end">
 					<Button
 						variant="primary"
-						class="my-auto hidden px-4 py-1.5 md:flex"
-						href="https://cosmicthemes.com/themes/amplify/"
+						class="my-auto hidden px-5 py-1.5 md:flex"
+						href="/blog"
 					>
-						Get Amplify
+						Blog
 					</Button>
 
 					<ThemeToggle class="my-auto ml-2 hidden md:block" />

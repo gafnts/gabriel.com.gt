@@ -15,7 +15,7 @@ const navConfig: navItem[] = [
 
 	// mega menu
 	{
-		text: "Pages",
+		text: "Portafolio",
 		megaMenuColumns: [
 			{
 				title: "Landing Pages",
