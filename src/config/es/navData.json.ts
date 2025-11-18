@@ -130,11 +130,6 @@ const navConfig: navItem[] = [
 			},
 		],
 	},
-
-	{
-		text: "Blog",
-		link: "/blog",
-	},
 ];
 
 export default navConfig;
