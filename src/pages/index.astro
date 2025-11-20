@@ -18,23 +18,23 @@ const currLocale = getLocaleFromUrl(Astro.url);
 		<div class="mr-auto max-w-4xl">
 			<Badge>ML and AI ENGINEERING</Badge>
 			<h1 class="h1 -mt-3">Bridging the gap between models and production</h1>
-			<div class="xs:grid-cols-2 mx-auto mt-10 grid gap-4 md:grid-cols-3">
+			<div class="xs:grid-cols-2 mx-auto mt-15 grid gap-12 md:grid-cols-4">
 
 				<!-- Landing pages -->
 				<div class="flex flex-col">
-					<h3 class="overview-heading">Data science</h3>
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/")}>Landing 1</a>
+					<h3 class="overview-heading">Economics</h3>
+					<a class="overview-link" href={getLocalizedRoute(currLocale, "/")}>Gravity model of international trade</a>
 					<a class="overview-link" href={getLocalizedRoute(currLocale, "/examples/landing2")}
-						>Landing 2</a
+						>Something that it is considerably longer</a
 					>
 					<a class="overview-link" href={getLocalizedRoute(currLocale, "/examples/landing3")}
-						>Landing 3</a
+						>This is also a long title, not that long though</a
 					>
 				</div>
 
 				<!-- Blog pages -->
 				<div class="flex flex-col">
-					<h3 class="overview-heading">MLOps</h3>
+					<h3 class="overview-heading">ML Engineering</h3>
 					<a
 						class="overview-link"
 						href={getLocalizedRoute(currLocale, "/blog/tsconfig-paths-setup")}>Blog Post 1</a
@@ -52,59 +52,35 @@ const currLocale = getLocaleFromUrl(Astro.url);
 
 				<!-- Sections -->
 				<div class="flex flex-col">
-					<h3 class="overview-heading">GenAI</h3>
+					<h3 class="overview-heading">ML Operations</h3>
 					<a class="overview-link" href={getLocalizedRoute(currLocale, "/examples/features")}
-						>Feature Sections</a
+					>Feature Sections</a
 					>
 					<a class="overview-link" href={getLocalizedRoute(currLocale, "/examples/pricing")}
-						>Pricing Sections</a
+					>Pricing Sections</a
 					>
 					<a
-						class="overview-link"
-						href={getLocalizedRoute(currLocale, "/examples/testimonials-faq")}
-						>Testimonial and FAQ Sections</a
+					class="overview-link"
+					href={getLocalizedRoute(currLocale, "/examples/testimonials-faq")}
+					>Testimonial and FAQ Sections</a
 					>
 					<a class="overview-link" href={getLocalizedRoute(currLocale, "/examples/hero-sections")}
-						>Hero Sections</a
+					>Hero Sections</a
 					>
+					<a class="overview-link" href="/not-a-link/">404</a>
 				</div>
 
 				<!-- Forms -->
 				<div class="flex flex-col">
-					<h3 class="overview-heading">Forms</h3>
+					<h3 class="overview-heading">Generative AI</h3>
 
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/contact")}>Contact</a>
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/login")}>Login</a>
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/signup")}>Signup</a>
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/password-reset")}
-						>Password Reset</a
-					>
-				</div>
-
-				<!-- Other -->
-				<div class="flex flex-col">
-					<h3 class="overview-heading">Other Pages</h3>
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/elements")}>MDX Pages</a>
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/about")}>About</a>
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/privacy-policy")}
-						>Privacy Policy</a
-					>
-					<a class="overview-link" href={getLocalizedRoute(currLocale, "/terms")}>Terms of Use</a>
-					<a class="overview-link" href="/not-a-link/">404</a>
-					<a
-						class="overview-link"
-						href={getLocalizedRoute(currLocale, "/rss.xml")}
-						target="_blank"
-						rel="noopener noreferrer">RSS Feed</a
-					>
-				</div>
-
-				<!-- Widgets -->
-				<div class="flex flex-col">
-					<h3 class="overview-heading">Widgets</h3>
 					<!-- CookieConsent component should be used in BaseLayout.astro if desired -->
 					<button id="test-consent-demo-btn" class="overview-link text-left">Cookie Consent</button>
+					<a class="overview-link" href={getLocalizedRoute(currLocale, "/contact")}>Contact</a>
+					<a class="overview-link" href={getLocalizedRoute(currLocale, "/about")}>About</a>
+					<a class="overview-link" href={getLocalizedRoute(currLocale, "/elements")}>MDX Pages</a>
 				</div>
+
 			</div>
 		</div>
 
@@ -139,7 +115,7 @@ const currLocale = getLocaleFromUrl(Astro.url);
 		@apply dark:text-base-300 mt-6 mb-4 text-xl font-medium md:text-2xl;
 	}
 	.overview-link {
-		@apply text-base-800 hover:text-base-600 dark:text-base-400 dark:hover:text-base-300 my-0.5 tracking-tight transition;
+		@apply text-base-800 hover:text-base-600 dark:text-base-400 dark:hover:text-base-300 my-1.5 tracking-tight transition;
 	}
 </style>
 
