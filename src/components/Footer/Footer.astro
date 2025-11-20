@@ -29,75 +29,19 @@ const today = new Date();
 				<div class="w-full md:w-1/2">
 					<div class="flex flex-wrap justify-between gap-x-16 gap-y-8">
 						<!-- first links column -->
-						<div class="w-auto py-2">
+						<div class="w-auto py-2 ml-auto">
 							<h3 class="text-base-800 dark:text-base-300 mb-8 font-medium tracking-tight">
-								Landing Pages
+								More info
 							</h3>
 							<ul class="flex flex-col gap-3">
 								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/")}>Landing 1</FooterLink>
+									<FooterLink href={getLocalizedRoute(currLocale, "/about")}>About</FooterLink>
 								</li>
 								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/examples/landing2")}
-										>Landing 2</FooterLink
-									>
+									<FooterLink href={getLocalizedRoute(currLocale, "/examples/features")}>CV</FooterLink>
 								</li>
-								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/examples/landing3")}
-										>Landing 3</FooterLink
-									>
-								</li>
-							</ul>
-						</div>
-
-						<!-- second links column -->
-						<div class="w-auto py-2">
-							<h3 class="text-base-800 dark:text-base-300 mb-8 font-medium tracking-tight">
-								Sections
-							</h3>
-							<ul class="flex flex-col gap-3">
-								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/examples/features")}
-										>Features</FooterLink
-									>
-								</li>
-								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/examples/pricing")}
-										>Pricing</FooterLink
-									>
-								</li>
-								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/examples/testimonials-faq")}
-										>Testimonial & FAQ</FooterLink
-									>
-								</li>
-								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/examples/hero-sections")}
-										>Hero</FooterLink
-									>
-								</li>
-							</ul>
-						</div>
-
-						<!-- third links column -->
-						<div class="w-auto py-2">
-							<h3 class="text-base-800 dark:text-base-300 mb-8 font-medium tracking-tight">
-								Forms
-							</h3>
-							<ul class="flex flex-col gap-3">
 								<li>
 									<FooterLink href={getLocalizedRoute(currLocale, "/contact")}>Contact</FooterLink>
-								</li>
-								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/login")}>Login</FooterLink>
-								</li>
-								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/signup")}>Signup</FooterLink>
-								</li>
-								<li>
-									<FooterLink href={getLocalizedRoute(currLocale, "/password-reset")}
-										>Password Reset</FooterLink
-									>
 								</li>
 							</ul>
 						</div>
